@@ -58,6 +58,8 @@ By now, Markdown2PDF contains multi builtin themes:
 
 * ghostwriter (from mixu/markdown-styles)
 
+* retro (from https://markdowncss.github.io/retro/)
+
 
 Trouble shooting
 ----------------
@@ -67,6 +69,9 @@ Trouble shooting
 .. code-block:: shell
 
     apt-get install libffi-dev
+    yum install libffi-devel
+    dnf install libffi-devel
+
 
 2. ``OSError: library not found: 'libcairo.so.2'``
 

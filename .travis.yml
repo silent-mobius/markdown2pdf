@@ -4,4 +4,5 @@ python:
 install:
   - pip3 install -r requirements.txt
   - python3 setup.py -q install
-script: skip
+script:
+  - ./test_stuff.sh
