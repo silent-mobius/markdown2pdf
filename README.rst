@@ -4,12 +4,12 @@ Markdown2PDF
 Markdown2pdf is a command-line tool to convert markdown file into pdf,
 was originally designed for myself to create resume.
 
-.. image:: https://travis-ci.org/kxxoling/markdown2pdf.svg?branch=master
-    :target: https://travis-ci.org/kxxoling/markdown2pdf
+.. image:: https://travis-ci.org/silent-mobius/markdown2pdf.svg?branch=master
+    :target: https://travis-ci.org/silent-mobius/markdown2pdf
     :alt: Building Status
 
-.. image:: https://landscape.io/github/kxxoling/markdown2pdf/master/landscape.svg?style=flat
-    :target: https://landscape.io/github/kxxoling/markdown2pdf/master
+.. image:: https://landscape.io/github/silent-mobius/markdown2pdf/master/landscape.svg?style=flat
+    :target: https://landscape.io/github/silent-mobius/markdown2pdf/master
     :alt: Code Health
 
 .. image:: https://pypip.in/download/markdown2pdf/badge.svg?period=week
@@ -58,6 +58,8 @@ By now, Markdown2PDF contains multi builtin themes:
 
 * ghostwriter (from mixu/markdown-styles)
 
+* retro (from https://markdowncss.github.io/retro/)
+
 
 Trouble shooting
 ----------------
@@ -67,6 +69,9 @@ Trouble shooting
 .. code-block:: shell
 
     apt-get install libffi-dev
+    yum install libffi-devel
+    dnf install libffi-devel
+
 
 2. ``OSError: library not found: 'libcairo.so.2'``
 
