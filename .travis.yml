@@ -6,3 +6,4 @@ install:
   - python3 setup.py -q install
 script:
   - ./test_stuff.sh
+  - md2pdf test.md
