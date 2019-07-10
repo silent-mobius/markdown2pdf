@@ -10,7 +10,7 @@
 
 md2pdf_cmd=$(which md2pdf)
 
-
+echo $md2pdf_cmd
 
 if [[ $md2pdf_cmd == '' ]];then
   false;exit 1
