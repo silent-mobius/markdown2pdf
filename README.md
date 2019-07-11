@@ -3,10 +3,7 @@ Markdown2PDF
 
 Markdown2pdf is a command-line tool to convert markdown file into pdf,
 was originally designed for myself to create resume.
-
-[image]: (https://travis-ci.org/silent-mobius/markdown2pdf.svg?branch=master)
-    :target: https://travis-ci.org/silent-mobius/markdown2pdf
-    :alt: Building Status)
+[![Build Status](https://travis-ci.org/silent-mobius/markdown2pdf.svg?branch=master)](https://travis-ci.org/silent-mobius/markdown2pdf)
 
 .. image:: https://landscape.io/github/silent-mobius/markdown2pdf/master/landscape.svg?style=flat
     :target: https://landscape.io/github/silent-mobius/markdown2pdf/master
